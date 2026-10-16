@@ -123,7 +123,7 @@ export default {
             }
         },
         goToAddContact() {
-            alert("Tính năng thêm mới sẽ được làm ở bước sau!");
+            this.$router.push({ name: "contact.add" });
         },
     },
 
